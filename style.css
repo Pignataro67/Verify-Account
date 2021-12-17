@@ -33,14 +33,14 @@ body {
 
 .code {
   caret-color: transparent;
-  border-radius: 10px;
-  font-size: 80px;
-  height: 125px;
-  width: 95px;
-  border: 2px solid #eee;
+  border-radius: 15px;
+  font-size: 75px;
+  height: 130px;
+  width: 100px;
+  border: 5px solid #eee;
   margin: 5%;
   text-align: center;
-  font-weight: 300;
+  font-weight: 295;
   -moz-appearance: textfield;
 }
 
