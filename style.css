@@ -58,11 +58,11 @@ body {
 .info {
   background-color: #eaeaea;
   display: inline-block;
-  padding: 10px;
-  line-height: 20px;
-  max-width: 400px;
+  padding: 15px;
+  line-height: 25px;
+  max-width: 395px;
   color: #777;
-  border-radius: 5px;
+  border-radius: 15px;
 }.
 
 @media (max-width: 600px) {
@@ -71,8 +71,8 @@ body {
   }
 
   .code {
-    font-size: 60px;
+    font-size: 65px;
     height: 80px;
-    max-width: 70px;
+    max-width: 75px;
   }
 }
