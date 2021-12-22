@@ -26,10 +26,10 @@ body {
   padding: 12px 20px;
   cursor: pointer;
   position: fixed;
-  top: 20px;
+  top: 25px;
   letter-spacing: 1px;
   box-shadow: 0 3px rgba(249, 202, 36, 0.5);
-  z-index: 100;
+  z-index: 95;
 }
 
 .magic:focus {
@@ -45,8 +45,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 500px;
-  width: 500px;
+  height: 490px;
+  width: 490px;
   position: relative;
-  transition: 0.4s ease;
+  transition: 0.3s ease;
 }
