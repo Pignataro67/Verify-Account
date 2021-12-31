@@ -68,6 +68,15 @@ h2 {
   width: 1rem;
 }
 
+result-container .btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
 .toggle:checked + .label .ball {
   animation: slideOn 0.3s linear forwards;
 }
