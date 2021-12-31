@@ -57,6 +57,17 @@ h2 {
   animation: slideOff 0.3s linear forwards;
 }
 
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+  overflow-y: scroll;
+  height: 100%;
+}
+
+#result::-webkit-scrollbar {
+  width: 1rem;
+}
+
 .toggle:checked + .label .ball {
   animation: slideOn 0.3s linear forwards;
 }
