@@ -81,26 +81,11 @@ result-container .btn {
   animation: slideOn 0.3s linear forwards;
 }
 
-@keyframes slideOn {
-  0% {
-    transform: translateX(0) scale(1);
-  }
-  50% {
-    transform: translateX(20px) scale(1.2);
-  }
-  100% {
-    transform: translateX(40px) scale(1);
-  }
-}
-
-@keyframes slideOn {
-  0% {
-    transform: translateX(0) scale(1);
-  }
-  50% {
-    transform: translateX(20px) scale(1.2);
-  }
-  100% {
-    transform: translateX(40px) scale(1);
-  }
+.btn {
+  border: none;
+  background-color: #3b3b98;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
 }
